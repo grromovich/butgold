@@ -1,0 +1,53 @@
+main {
+    height: 500px;
+    font-family: "YandexSans";
+    padding-top: 0;
+}
+
+.main__container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error404-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.error404-text h1{
+    font-weight: 100;
+    font-size: 210px;
+}
+
+.error404-text h2{
+    font-size: 50px;
+}
+
+.left-404-side {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.goodbuy-h2 {
+    font-size: 45px
+}
+
+.goodbuy-button {
+    position: absolute;
+    background: #222325;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    margin-left: 360px;
+    margin-top: 200px;
+}

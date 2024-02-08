@@ -1,0 +1,41 @@
+.main__container {
+    font-family: "YandexSans";
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.phon_left-part {
+    width: 550px;
+    height: 150px;
+    background: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.left-part h2 {
+    font-size: 20px;
+    width: 90%;
+}
+
+.main-form textarea{
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 5px;
+    padding-left: 8px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+
+.checkbox {
+    margin-top: 15px;
+}
+
+.checkbox label {
+    font-size: 15px;
+}

@@ -1,0 +1,72 @@
+main {
+    font-family: "YandexSans";
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.group3 {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.catalog-el {
+    width: calc(374px/1.5);
+    height: calc(503px/1.5);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+.catalog-el:nth-child(1) {
+    background: url("../img/cat1.png"), lightgray 50% / cover no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+.catalog-el:nth-child(2) {
+    background: url("../img/cat2.png"), lightgray 50% / cover no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+.catalog-el:nth-child(3) {
+    background: url("../img/cat3.png"), lightgray 50% / cover no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+.catalog-el h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 110%;
+}
+
+.catalog-group {
+    position: relative;
+}
+
+.hrs-down {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 110%;
+    left: 75%;
+}
+
+.hrs-down hr {
+    width: 250px;
+    height: 1px;
+}
+
+.hrs-down hr:first-child {
+    transform: rotate(90deg) translate(-49.5%, -50px);
+    width: 400px;
+}
+
+.hrs-down:last-child {
+    top: 5%;
+    left: -22%;
+    transform: rotate(180deg);
+}

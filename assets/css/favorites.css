@@ -1,0 +1,58 @@
+.good__container img:first-child {
+    visibility: hidden;
+}
+
+.good {
+    position: relative;
+    
+}
+
+.favorites-goods .good {
+    filter: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background:  lightgray 50% / cover no-repeat;
+    background-position: 50% 50%;
+}
+
+main h1 {
+    margin-top: 10px;
+}
+
+.favorites-goods {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.favorites-goods__container {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.krest {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 6%;
+    left: 92%;
+    border: none;
+    outline: none;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.good-img-card {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 230px;
+    height: 230px;
+
+}

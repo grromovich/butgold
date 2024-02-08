@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "YandexSans";
+}
+
+header > hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header__container {
+    width: 90%;
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo {
+    margin: 0 auto;
+    width: 188px;
+    height: 38px;
+
+}
+
+.minipic {
+    width: 24px;
+    height: 24px;
+}
+
+.header-krug {
+    background-color: #D9D9D9;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.header-krug > img {
+    height: 20px;
+    width: 20px;
+}
+
+.header-panel {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    background-color: #F7E7D8;
+    left: 25px;
+    top: 0;
+    z-index: 50;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+}
+
+.header-panel__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7px;
+
+    width: 90%;
+    height: 95%;
+}
+
+.header-panel__container hr {
+    width: 120px;
+    align-self: center;
+}
+
+.header-krug-black {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.header-ico-group {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.header-text-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.ico-group {
+    display: flex;
+    align-items: center;
+}
+
+.ico-group img {
+    width: 15px;
+    height: 15px;
+}
+
+.but_header {
+    background-color: #222325;
+    width: 170px;
+    height: 38px;
+    color: white;
+    font-family: "YandexSans";
+    font-size: 12px;
+}
+
+.left-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding-left: 119px;
+    position: relative;
+}
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: #F7E7D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "YandexSans";
+}
+
+.footer__container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panels {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.footer-front {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: "Cinzel";
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-panel ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer form{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.checkbox input {
+    border: 1px solid #858585;
+    border-radius: 100px;
+    background: #F7E7D8;
+}
+
+.email-form-input {
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 300px;
+    background-color: #F7E7D8;
+    padding: 5px;
+    outline: none;
+}
+
+.btn-form-sbmt {
+    width: 100px;
+    height: 30px;
+    background-color: #222325;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: 400;
+}
+
+.conts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.conts img {
+    width: 30px;
+    height: 30px;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.bottom-a {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.bottom-a a {
+    color: black;
+    text-decoration: none;
+}
+main {
+    padding-top: 20px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "YandexSans";
+}
+
+.main__container {
+    width: 90%;
+    max-width: 1440px;
+}
+
+
+.page-naming {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-self: flex-start;
+}
+.page-naming li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.page-naming p {
+    white-space: nowrap;
+}
+
+.page-naming img {
+    width: 5px;
+    height: 5px;
+}
+
+.parts {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.input-form {
+    width: 243px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 8px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.main-form input[type="submit"]{
+    margin-top: 10px;
+    width: 172px;
+    height: 35px;
+}
+
+.main-form label:not(:first-child):not(:last-child) {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-form .checkbox {
+    margin-top: 15px;
+}
+
+.main-form .checkbox label {
+    font-size: 15px;
+}
+
+.btn-back button {
+    width: 100px;
+    height: 40px;
+    background: #000;
+    color: white;
+    padding-right: 30px;
+}
+
+.btn-back {
+    align-self: flex-end;
+    position: relative;
+}
+
+.btn-back img {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 15px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+input[type="radio"] {
+    filter: grayscale(100%);
+}
+
+input[type="checkbox"] {
+    filter: grayscale(100%);
+}
+
+.error {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: red;
+    font-weight: 500;
+}

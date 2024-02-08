@@ -1,0 +1,118 @@
+main {
+    padding-bottom: 30px;
+}
+
+.good-parts {
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    align-self: center;
+}
+
+.right-part {
+    padding-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.good-tovar {
+    display: flex;
+    gap: 10px;
+}
+
+.good-like {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.good-like img {
+    width: 25px;
+    height: 25px;
+}
+
+.good-price {
+    font-size: 22px;
+}
+
+.good-left-img img{
+    width: 250px;
+    height: 250px;
+}
+
+.good-right-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.good-right-info p {
+    padding-bottom: 10px;
+}
+
+.good-tovar button {
+    padding-top: 5px;
+    width: 120px;
+    height: 40px;
+    background: #000;
+    color: white;
+}
+
+.btn-cart{
+    padding-top: 5px;
+    width: 150px;
+    height: 40px;
+    background: #000;
+    color: white;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-start;
+}
+
+.left-part hr {
+    margin: 30px 0 30px 0;
+}
+
+.left-part .hr-first {
+    margin-top: 5px;
+}
+
+.nrav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.nrav-goods {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.nrav-good {
+    position: relative;
+}
+
+.nrav-good a {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.good-back {
+    padding-top: 25px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+

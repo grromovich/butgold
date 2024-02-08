@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/cinzel_regular.ttf");
+}
+
+@font-face {
+    font-family: "Serifiqo";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Serifiqo\ 4F\ Free\ Capitals.ttf");
+}
+
+@font-face {
+    font-family: "YandexSans";
+    font-style: normal;
+    font-weight: 100;
+    src: url("../fonts/YandexSansDisplay-Thin.ttf");
+}

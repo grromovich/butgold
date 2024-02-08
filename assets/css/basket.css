@@ -1,0 +1,189 @@
+main {
+    padding-bottom: 30px;
+}
+
+.nrav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.nrav-goods {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.nrav-good {
+    position: relative;
+}
+
+.nrav-good a {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.good-back {
+    padding-top: 25px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}   
+
+hr {
+    width: 60%;
+    margin: 30px 0 30px 0;
+}
+
+.hr-first {
+    margin-top: 5px;
+}
+
+.good-like {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.good-like img {
+    width: 25px;
+    height: 25px;
+}
+
+#address {
+    display: none;
+}
+
+.basket-parts {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.basket-right-part {
+    border-radius: 10px;
+    background: #F5F5F5;
+    width: 565px;
+    height: fit-content;
+    padding: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zakaz-form {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.zakaz-form h1 {
+    font-size: 30px;
+}
+
+.form-price {
+    font-size: 24px;
+}
+
+.zakaz-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.zakaz-form input:not(:last-child) {
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #F5F5F5;
+    padding-left: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+#oplata {
+    background: #222325;
+    color: white;
+    width: 230px;
+    height: 45px;
+    align-self: center;
+    font-weight: 100;
+}
+
+.zakaz-form button {
+    width: 250px;
+    height: 45px;
+    background: #000;
+    color: white;
+    font-weight: 100;
+}
+
+.good-tovar {
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.good-left-img img{
+    width: 250px;
+    height: 250px;
+}
+
+.select-css { 
+    border: none;
+    outline: none;
+} 
+
+.krest {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.good-right-info a {
+    font-size: 22px;
+}
+
+.good-right-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.good-right-info-group {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.good-price {
+    font-size: 22px;
+}
+
+.button-like {
+    border: none;
+    outline: none;
+    background-size: contain;
+}
+
+.busket-space {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
